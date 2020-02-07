@@ -39,6 +39,9 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
+    sinatra-activerecord (2.0.14)
+      activerecord (>= 3.2)
+      sinatra (>= 1.0)
     thin (1.7.2)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
@@ -58,6 +61,7 @@ DEPENDENCIES
   require_all
   shotgun
   sinatra
+  sinatra-activerecord
   thin
 
 BUNDLED WITH
